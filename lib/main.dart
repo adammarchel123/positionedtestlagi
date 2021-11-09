@@ -7,6 +7,14 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
+  final beginColor = const Color(0xffb226b2);
+  final endColorSmall = const Color(0xffff6da7);
+  final endColorBig = const Color(0xffff4891);
+  final thirdCircle = const Color(0xfff3e9ee);
+
+
+
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
